@@ -1,0 +1,263 @@
+<?php
+    $username = "akeehan";
+    $password = "919792";
+?>
+akeehan@cpsc:~/public_html/Subnautica$ cat Style.css
+* {
+    margin:0px;
+    padding:0px;
+}
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #20B2AA;
+    border-radius: 2em;
+    justify-content:center;
+    align-items:center;
+}
+.heading {
+
+    color:lightblue;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:21px;
+}
+nav {
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    min-height: 8vh;
+    background-color:teal;
+}
+.nav-links {
+    display:flex;
+    justify-content:space-around;
+    width: 15%;
+}
+.nav-links li {
+    float:right;
+    list-style:none;
+}
+.nav-links a {
+    display:block;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    letter-spacing:3px;
+    font-weight:bold;
+    font-size:14px;
+    padding:8px;
+}
+.nav-links a:hover:not(.active) {
+    background-color:lightseagreen;
+}
+.nav-links li a.active {
+    background-color: #4caf50;
+}
+.top {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#00FF97;
+    margin-top:80px;
+}
+body.home {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.carnivores {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.herbivores {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.flora {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.equipment {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.fragments {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.vehicles {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.biomes {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.pictures {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body.map {
+    .background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+body {
+    padding-top:40px;
+    padding-bottom:40px;
+    color:white;
+}
+.form-signin {
+    max-width:330px;
+    padding:15px;
+    margin:0 auto;
+
+}
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom:10px;
+    color:lightblue;
+}
+.form-signin .checkbox {
+    font-weight:normal;
+}
+.form-signin .form-control {
+    position:relative;
+    height:auto;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:11px;
+    font-size:16px;
+}
+.form-signin .form-control:focus {
+    z-index:2;
+}
+.form-signin input[type="email"] {
+    margin-bottom:-1px;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    border-color:teal;
+}
+.form-signin input[type="password"] {
+    margin-bottom:10px;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    border-color:teal;
+}
+h2 {
+    text-align:center;
+}
+.body {
+    margin:0;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#00FF97;
+    text-decoration:none;
+}
+
+.link {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+
+}
+
